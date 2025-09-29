@@ -1,4 +1,5 @@
 import React from "react";
+import resumePdf from "../assets/Himanshu-CV.pdf";
 
 const About = () => {
   return (
@@ -28,8 +29,8 @@ const About = () => {
             </p>
             <div className="resume-download">
               <a
-                href="assets/Himanshu-CV.pdf"
-                download
+                href={resumePdf}
+                download="Himanshu-CV.pdf"
                 className="download-btn"
               >
                 📄 Download Resume
