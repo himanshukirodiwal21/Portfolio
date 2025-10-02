@@ -17,7 +17,7 @@ const Hero = () => {
           Passionate about creating innovative web solutions and bringing ideas
           to life through code
         </p>
-        <a href="#contact" className="cta-button">Get In Touch</a>
+        <a href="#about" className="cta-button">Get In Touch</a>
       </div>
     </section>
   );

@@ -9,19 +9,60 @@ const About = () => {
         <div className="about-content fade-in">
           <div className="contact-info">
             <h3>Contact Information</h3>
-            <p>
-              <strong>📧 Email:</strong> himanshukirodiwal21@gmail.com
+            <p style={{ display: "inline" }}>
+              <strong>📧 Email:</strong>{" "}
+              <a
+                href="mailto:himanshukirodiwal21@gmail.com"
+                style={{
+                  color: "#ffd700",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                himanshukirodiwal21@gmail.com
+              </a>
             </p>
+
             <p>
-              <strong>📱 Phone:</strong> +91 8058875153
+              <strong>📱 Phone:</strong>{" "}
+              <span
+                onClick={() => navigator.clipboard.writeText("+91 8058875153")}
+                style={{ cursor: "pointer", color: "#ffd700" }}
+                title="Click to copy"
+              >
+                +91 8058875153
+              </span>
             </p>
+
             <p>
-              <strong>📍 Location:</strong> Kota, Rajasthan
+              <strong>📍 Location:</strong>{" "}
+              <a
+                href="https://www.google.com/maps?q=Jhunjhunu,+Rajasthan"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "#ffd700",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                Jhunjhunu, Rajasthan
+              </a>
             </p>
+
             <p>
               <strong>🔗 LinkedIn:</strong>
               <a
                 href="https://www.linkedin.com/in/himanshu-kirodiwal-371b58246"
+                style={{ color: "#ffd700" }}
+              >
+                View Profile
+              </a>
+            </p>
+            <p>
+              <strong>💻 GitHub:</strong>
+              <a
+                href="https://github.com/himanshukirodiwal21"
                 style={{ color: "#ffd700" }}
               >
                 View Profile
