@@ -8,6 +8,29 @@ const Projects = () => {
           <h2 className="section-title fade-in">Projects</h2>
           <div className="projects-grid fade-in">
             <a
+              href="https://github.com/himanshukirodiwal21/UniPlay"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="project-card">
+                <div className="project-header">
+                  <div className="project-icon">🏆</div>
+                  <div className="project-title">UniPlay – University Sports Platform</div>
+                </div>
+                <div className="project-content">
+                  <p>
+                    A full-stack MERN-based university sports management platform featuring
+                    admin-controlled event approvals, team registrations, live match score
+                    updates, event status tracking, and a centralized dashboard for managing
+                    tournaments, campus competitions, and overall event workflows in a
+                    scalable and user-friendly system.
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <a
               href="https://himanshukirodiwal21.github.io/Solar-explorer/"
               target="_blank"
               rel="noreferrer"
