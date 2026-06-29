@@ -7,6 +7,8 @@ const Projects = () => {
         <div className="container">
           <h2 className="section-title fade-in">Projects</h2>
           <div className="projects-grid fade-in">
+
+            {/* UniPlay */}
             <a
               href="https://github.com/himanshukirodiwal21/UniPlay"
               target="_blank"
@@ -25,6 +27,32 @@ const Projects = () => {
                     updates, event status tracking, and a centralized dashboard for managing
                     tournaments, campus competitions, and overall event workflows in a
                     scalable and user-friendly system.
+                  </p>
+                </div>
+              </div>
+            </a>
+
+
+            {/* InterviewReady */}
+
+            <a
+              href="https://github.com/himanshukirodiwal21/InterviewReady"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <div className="project-card">
+                <div className="project-header">
+                  <div className="project-icon">🎤</div>
+                  <div className="project-title">InterviewReady – AI Interview Preparation Platform</div>
+                </div>
+                <div className="project-content">
+                  <p>
+                    A full-stack MERN-based AI-powered interview preparation platform that
+                    enables users to practice technical and HR interviews through
+                    role-specific question generation, real-time AI feedback, performance
+                    analytics, interview history tracking, secure authentication, and an
+                    intuitive dashboard designed to enhance interview readiness.
                   </p>
                 </div>
               </div>

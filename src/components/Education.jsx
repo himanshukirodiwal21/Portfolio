@@ -11,6 +11,7 @@ const Education = () => {
             <h4>University Department Rajasthan Technical University, Kota</h4>
             <p><strong>Duration:</strong> 2022 - 2026</p>
             <p><strong>Branch:</strong> Information Technology</p>
+            <p>CGPA: 7.87/10</p>
             <p>
               Currently pursuing my undergraduate degree in{" "}
               <i><b>Information Technology</b></i>, focusing on computer
