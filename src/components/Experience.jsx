@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="experience-card fade-in">
           <div className="experience-header">
             <div>
-              <div className="company">OXmaint Inc, Jaipur</div>
+              <div className="company">JRS Innovation Inc, Jaipur</div>
               <div className="position">Full Stack Development Intern</div>
             </div>
             <div className="date">May 2025 - July 2025</div>

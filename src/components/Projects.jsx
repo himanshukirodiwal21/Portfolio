@@ -9,79 +9,85 @@ const Projects = () => {
           <div className="projects-grid fade-in">
 
             {/* UniPlay */}
-            <a
-              href="https://github.com/himanshukirodiwal21/UniPlay"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <div className="project-card">
-                <div className="project-header">
-                  <div className="project-icon">🏆</div>
-                  <div className="project-title">UniPlay – University Sports Platform</div>
+            <div className="project-card">
+              <a
+                href="https://github.com/himanshukirodiwal21/UniPlay"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div >
+                  <div className="project-header">
+                    <div className="project-icon">🏆</div>
+                    <div className="project-title">UniPlay – University Sports Platform</div>
+                  </div>
+                  <div className="project-content">
+                    <p>
+                      A full-stack MERN-based university sports management platform featuring
+                      admin-controlled event approvals, team registrations, live match score
+                      updates, event status tracking, and a centralized dashboard for managing
+                      tournaments, campus competitions, and overall event workflows in a
+                      scalable and user-friendly system.
+                    </p>
+                  </div>
                 </div>
-                <div className="project-content">
-                  <p>
-                    A full-stack MERN-based university sports management platform featuring
-                    admin-controlled event approvals, team registrations, live match score
-                    updates, event status tracking, and a centralized dashboard for managing
-                    tournaments, campus competitions, and overall event workflows in a
-                    scalable and user-friendly system.
-                  </p>
-                </div>
-              </div>
-            </a>
-
+              </a>
+            </div>
 
             {/* InterviewReady */}
+            <div className="project-card">
+              <a
+                href="https://github.com/himanshukirodiwal21/InterviewReady"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div className="project-card">
+                  <div className="project-header">
+                    <div className="project-icon">🎤</div>
+                    <div className="project-title">InterviewReady – AI Interview Preparation Plateform</div>
+                  </div>
+                  <div className="project-content">
+                    <p>
+                      A full-stack MERN-based AI-powered interview preparation platform that
+                      enables users to practice technical and HR interviews through
+                      role-specific question generation, real-time AI feedback, performance
+                      analytics, interview history tracking, secure authentication, and an
+                      intuitive dashboard designed to enhance interview readiness.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-            <a
-              href="https://github.com/himanshukirodiwal21/InterviewReady"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <div className="project-card">
-                <div className="project-header">
-                  <div className="project-icon">🎤</div>
-                  <div className="project-title">InterviewReady – AI Interview Preparation Platform</div>
+            {/* Solar-explorer */}
+            <div className="project-card">
+              <a
+                href="https://himanshukirodiwal21.github.io/Solar-explorer/"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div>
+                  <div className="project-header">
+                    <div className="project-icon">🪐</div>
+                    <div className="project-title">Solar Explorer</div>
+                  </div>
+                  <div className="project-content">
+                    <p>
+                      Solar Explorer is an interactive solar system model built
+                      entirely with HTML and CSS. It allows users to explore
+                      planets, their facts, and moons through a clean, responsive
+                      interface without using JavaScript. This project highlights
+                      advanced CSS techniques, creative UI design, and my ability
+                      to build engaging, educational web experiences.
+                    </p>
+                  </div>
                 </div>
-                <div className="project-content">
-                  <p>
-                    A full-stack MERN-based AI-powered interview preparation platform that
-                    enables users to practice technical and HR interviews through
-                    role-specific question generation, real-time AI feedback, performance
-                    analytics, interview history tracking, secure authentication, and an
-                    intuitive dashboard designed to enhance interview readiness.
-                  </p>
-                </div>
-              </div>
-            </a>
+              </a>
+            </div>
 
-            <a
-              href="https://himanshukirodiwal21.github.io/Solar-explorer/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <div className="project-card">
-                <div className="project-header">
-                  <div className="project-icon">🪐</div>
-                  <div className="project-title">Solar Explorer</div>
-                </div>
-                <div className="project-content">
-                  <p>
-                    Solar Explorer is an interactive solar system model built
-                    entirely with HTML and CSS. It allows users to explore
-                    planets, their facts, and moons through a clean, responsive
-                    interface without using JavaScript. This project highlights
-                    advanced CSS techniques, creative UI design, and my ability
-                    to build engaging, educational web experiences.
-                  </p>
-                </div>
-              </div>
-            </a>
-
+            {/* Spotify Clone */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">🎵</div>
@@ -96,29 +102,33 @@ const Projects = () => {
               </div>
             </div>
 
-            <a
-              href="https://himanshukirodiwal21.github.io/Tourist-Guide/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <div className="project-card">
-                <div className="project-header">
-                  <div className="project-icon">🗺️</div>
-                  <div className="project-title">Tourist Guide</div>
+            {/* Tourist Guide */}
+            <div className="project-card">
+              <a
+                href="https://himanshukirodiwal21.github.io/Tourist-Guide/"
+                target="_blank"
+                rel="noreferrer"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div>
+                  <div className="project-header">
+                    <div className="project-icon">🗺️</div>
+                    <div className="project-title">Tourist Guide</div>
+                  </div>
+                  <div className="project-content">
+                    <p>
+                      An interactive travel guide web app that helps users explore
+                      new destinations, discover must-visit attractions, and plan
+                      memorable trips efficiently, offering detailed guides,
+                      travel tips, and curated recommendations for a seamless
+                      experience.
+                    </p>
+                  </div>
                 </div>
-                <div className="project-content">
-                  <p>
-                    An interactive travel guide web app that helps users explore
-                    new destinations, discover must-visit attractions, and plan
-                    memorable trips efficiently, offering detailed guides,
-                    travel tips, and curated recommendations for a seamless
-                    experience.
-                  </p>
-                </div>
-              </div>
-            </a>
+              </a>
+            </div>
 
+            {/* QR Code Reader */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">📱</div>
@@ -133,6 +143,7 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* E-commerce Website */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">🛒</div>
@@ -147,6 +158,7 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Online Bookstore */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">📚</div>
@@ -161,6 +173,7 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Weather Website */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">🌤️</div>
@@ -174,6 +187,7 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Portfolio Website */}
             <div className="project-card">
               <div className="project-header">
                 <div className="project-icon">💼</div>
