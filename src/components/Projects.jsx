@@ -42,7 +42,7 @@ const Projects = () => {
                 rel="noreferrer"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
-                <div className="project-card">
+                <div>
                   <div className="project-header">
                     <div className="project-icon">🎤</div>
                     <div className="project-title">InterviewReady – AI Interview Preparation Plateform</div>
