@@ -13,7 +13,7 @@ const Education = () => {
             <p><strong>Branch:</strong> Information Technology</p>
             <p><strong>CGPA:</strong> 7.87/10</p>
             <p>
-              Completed a <i><b>Bachelor of Technology in Information Technology</b></i>
+              Completed a <i><b>Bachelor of Technology in Information Technology </b></i>
               from Rajasthan Technical University, Kota, with a CGPA of <b>7.87/10</b>.
               Developed strong expertise in Data Structures & Algorithms, Full-Stack MERN
               Development, and modern software engineering by building real-world projects.
